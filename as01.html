@@ -5,6 +5,20 @@
 	<meta charset="utf-8"/>
 	<title>Gadget Calculator</title>
 	<link rel="stylesheet" href="main.css"/>
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            $('input').on('change' , function(e){
+                let salary =parseInt($('#salary').val());
+                console.log(salary);
+                
+            })
+            
+        });
+    
+    
+    </script>
    
 </head>
 <body>
