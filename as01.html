@@ -12,6 +12,11 @@
             $('input').on('change' , function(e){
                 let salary =parseInt($('#salary').val());
                 console.log(salary);
+                let percent = parseInt($('#percent').val());
+                console.log(percent);
+                
+                let gadget = (salary * percent) / 100;
+                console.log(gadget);
                 
             })
             
