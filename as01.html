@@ -8,7 +8,7 @@
     <script src="jquery.js"></script>
     <script>
         $(document).ready(function(){
-            
+            //difference between change and keyup, if we use change we have to press enter to see the result but when we use keyup no needs to press eneter
             $('input').on('change keyup' , function(e){
                 let salary =parseInt($('#salary').val());
                 console.log(salary);
